@@ -3,29 +3,36 @@
 #### 1. run docker container
 
 ```sh
-    docker-compose up -d
+$ docker-compose up -d
 ```
 
 #### 2. install dependencies
 
 ```sh
-    yarn install
+$ yarn install
 ```
 
 #### 3. create database
 
 ```sh
-    yarn db:create
+$ yarn db:create
 ```
 
 #### 4. apply migrations
 
 ```sh
-    yarn migrate
+$ yarn migrate
 ```
 
 #### 5. run application
 
 ```sh
-    yarn start
+$ yarn start
 ```
+
+#### Enter to Admin panel:
+
+Go to `localhost:3000/admin`
+
+Login: root
+Pass: root
