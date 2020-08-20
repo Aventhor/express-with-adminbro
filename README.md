@@ -34,5 +34,5 @@ $ yarn start
 
 Go to `localhost:3000/admin`
 
-Login: root
-Pass: root
+Login: `root`  
+Pass: `root`
